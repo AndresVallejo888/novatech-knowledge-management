@@ -1,0 +1,1 @@
+Incident Response Plan. When a security breach is detected, the response team contains the threat, investigates the cause, restores affected systems and notifies regulators if required. A post-incident report documents lessons and corrective actions.

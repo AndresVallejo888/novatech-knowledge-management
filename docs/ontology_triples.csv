@@ -1,0 +1,29 @@
+subject,relation,object
+Engineering,produces,Technical Documentation
+Human Resources,produces,HR Policy
+Project Management,produces,Project Report
+Support & Training,produces,User Manual
+Security & Compliance,produces,Security Policy
+Technical Documentation,describes,Microservices
+Technical Documentation,describes,Cloud Infrastructure
+Technical Documentation,describes,CI/CD
+Technical Documentation,describes,Testing
+HR Policy,describes,Recruitment
+HR Policy,describes,Leave & Vacation
+HR Policy,describes,Performance Review
+Project Report,describes,Risk
+Project Report,describes,Budget
+Project Report,describes,Milestone
+User Manual,describes,Helpdesk Ticket
+User Manual,describes,Onboarding
+Security Policy,describes,GDPR
+Security Policy,describes,Incident Response
+Security Policy,describes,Access Control
+CI/CD,includes,Testing
+Cloud Infrastructure,depends_on,Access Control
+Recruitment,followed_by,Onboarding
+Performance Review,related_to,Onboarding
+Budget,tracked_by,Milestone
+Risk,related_to,Incident Response
+Helpdesk Ticket,may_trigger,Incident Response
+Onboarding,requires,Access Control

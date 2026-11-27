@@ -1,0 +1,1 @@
+Vendor Risk Management Procedure. Third-party suppliers must pass a security assessment and sign a confidentiality agreement. Contracts include compliance clauses and the right to audit vendor controls.

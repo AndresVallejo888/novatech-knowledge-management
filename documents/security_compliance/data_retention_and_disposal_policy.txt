@@ -1,0 +1,1 @@
+Data Retention and Disposal Policy. Records are kept according to legal requirements and securely destroyed afterwards. Encrypted backups are stored offsite. Disposal of hardware follows approved wiping procedures.

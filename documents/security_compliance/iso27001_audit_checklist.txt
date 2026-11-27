@@ -1,0 +1,1 @@
+ISO 27001 Audit Checklist. The internal audit verifies risk assessment records, asset inventory, access controls and encryption practices. Nonconformities must be corrected before the external certification audit.

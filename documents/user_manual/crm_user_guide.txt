@@ -1,0 +1,1 @@
+CRM User Guide. To create a new customer record, click the New Contact button, fill in the form and press Save. You can search contacts using the search bar and export the list to a spreadsheet from the Reports menu.

@@ -1,0 +1,1 @@
+Code Review Standards. All pull requests require two reviewers. Developers must follow the style guide, write unit tests and update the technical documentation. Large refactoring changes should be split into small commits.

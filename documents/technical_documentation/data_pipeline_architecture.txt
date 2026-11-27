@@ -1,0 +1,1 @@
+Data Pipeline Architecture. The ETL pipeline extracts transactional data, transforms it with Python scripts and loads it into the data warehouse. Orchestration is handled by Airflow with retry logic and data quality checks.

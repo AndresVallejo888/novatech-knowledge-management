@@ -1,0 +1,1 @@
+Timesheet Application Manual. Log in with your company account, select the project and enter the hours worked each day. Click Submit at the end of the week so your manager can approve the timesheet.

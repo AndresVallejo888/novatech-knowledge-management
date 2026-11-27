@@ -1,0 +1,1 @@
+Microservices Design Patterns. The platform applies the circuit breaker, saga and event sourcing patterns. Services are loosely coupled and communicate through events published to a message broker such as Kafka.

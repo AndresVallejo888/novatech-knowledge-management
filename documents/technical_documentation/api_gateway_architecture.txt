@@ -1,0 +1,1 @@
+API Gateway Architecture. The API gateway routes REST requests to microservices deployed on Kubernetes. It handles authentication tokens, rate limiting and request logging. Each microservice exposes an OpenAPI specification and communicates through an asynchronous message queue.

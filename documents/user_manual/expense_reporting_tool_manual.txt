@@ -1,0 +1,1 @@
+Expense Reporting Tool Manual. Press Add Expense, select the category, upload the receipt photo and enter the amount. Submit the report and wait for the approval notification. Reimbursements are paid monthly.

@@ -1,0 +1,1 @@
+Document Management System Guide. To upload a file, press Upload, choose the folder and add tags. Use the preview button to open documents and the share button to send a link to a colleague.

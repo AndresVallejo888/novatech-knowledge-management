@@ -1,0 +1,1 @@
+Database Schema Design. The customer database uses PostgreSQL with normalized tables for accounts, orders and invoices. Indexes are created on foreign keys to speed up queries. Schema migrations are versioned and applied by the deployment pipeline.

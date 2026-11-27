@@ -1,0 +1,1 @@
+Information Security Policy. All company data must be classified as public, internal or confidential. Access follows the principle of least privilege. Employees must report security incidents immediately to the security team.

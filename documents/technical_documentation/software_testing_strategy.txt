@@ -1,0 +1,1 @@
+Software Testing Strategy. The testing strategy combines unit tests, integration tests and end-to-end tests. Test coverage must exceed eighty percent. Performance tests simulate heavy load on the API endpoints.

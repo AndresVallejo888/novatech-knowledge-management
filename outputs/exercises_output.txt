@@ -1,0 +1,25 @@
+=== Exercise A: top TF-IDF terms per category ===
+  hr_policy                  leave, employees, policy, days, benefits, human
+  project_report             project, report, percent, risk, satisfaction, survey
+  security_compliance        security, data, compliance, access, audit, policy
+  technical_documentation    tests, pipeline, data, integration, api, unit
+  user_manual                button, password, click, press, upload, start
+
+=== Exercise B: preprocessing ablation (Naive Bayes, 5-fold CV) ===
+  unigrams, no stop-word removal       accuracy = 85.00%
+  unigrams + stop-word removal         accuracy = 87.50%
+  uni+bigrams + stop-word removal      accuracy = 87.50%
+
+=== Exercise C: retrieval check (expected document must appear in top-3) ===
+  rank=1  How many days of vacation do employees get?
+  rank=1  How do I reset my forgotten password?
+  rank=1  What are the risks and budget status of the project?
+  rank=1  How is our infrastructure deployed in the cloud?
+  rank=3  What should we do after a data breach?
+  rank=1  remote work and VPN rules
+  rank=1  how to submit an expense receipt
+  rank=1  ISO 27001 internal audit
+  rank=1  Docker images and automated tests deployment
+  rank=1  customer survey satisfaction score
+
+  Top-1 accuracy: 9/10 | Top-3 accuracy: 10/10

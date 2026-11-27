@@ -1,0 +1,1 @@
+Project Phoenix Lessons Learned. The post-project review identified scope creep and poor stakeholder communication as the main causes of delays. Recommendations include weekly status meetings and stricter change control.

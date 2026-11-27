@@ -1,0 +1,1 @@
+Project Delta Risk Assessment. The risk register lists budget overrun, vendor delay and staff turnover. Each risk has a probability, impact score and mitigation plan. The project manager reviews the register every sprint.

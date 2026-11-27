@@ -1,0 +1,1 @@
+Cloud Infrastructure Setup. Infrastructure is provisioned with Terraform on AWS. The virtual private cloud contains private subnets, load balancers and auto scaling groups. Monitoring uses Prometheus dashboards and alert rules.

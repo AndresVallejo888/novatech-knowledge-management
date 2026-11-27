@@ -1,0 +1,51 @@
+[1] Loaded 40 documents in 5 categories
+[2] Train/test split: 30 train, 10 test
+
+=== Multinomial Naive Bayes ===
+Test accuracy: 100.00% | 5-fold CV accuracy: 87.50% (+/- 7.91%)
+=== Logistic Regression ===
+Test accuracy: 100.00% | 5-fold CV accuracy: 82.50% (+/- 6.12%)
+
+[3] Selected model: Multinomial Naive Bayes
+
+Classification report (test set):
+                         precision    recall  f1-score   support
+
+              hr_policy       1.00      1.00      1.00         2
+         project_report       1.00      1.00      1.00         2
+    security_compliance       1.00      1.00      1.00         2
+technical_documentation       1.00      1.00      1.00         2
+            user_manual       1.00      1.00      1.00         2
+
+               accuracy                           1.00        10
+              macro avg       1.00      1.00      1.00        10
+           weighted avg       1.00      1.00      1.00        10
+
+Confusion matrix (rows = true, cols = predicted):
+Order: ['hr_policy', 'project_report', 'security_compliance', 'technical_documentation', 'user_manual']
+[[2 0 0 0 0]
+ [0 2 0 0 0]
+ [0 0 2 0 0]
+ [0 0 0 2 0]
+ [0 0 0 0 2]]
+
+Per-document predictions (test set):
+  OK  gdpr_data_protection_procedure         true=security_compliance        pred=security_compliance
+  OK  helpdesk_ticketing_guide               true=user_manual                pred=user_manual
+  OK  training_and_development_policy        true=hr_policy                  pred=hr_policy
+  OK  quarterly_sales_report_q2              true=project_report             pred=project_report
+  OK  performance_evaluation_policy          true=hr_policy                  pred=hr_policy
+  OK  vendor_risk_management                 true=security_compliance        pred=security_compliance
+  OK  client_satisfaction_survey_results     true=project_report             pred=project_report
+  OK  intranet_portal_quick_start            true=user_manual                pred=user_manual
+  OK  cicd_pipeline_guide                    true=technical_documentation    pred=technical_documentation
+  OK  code_review_standards                  true=technical_documentation    pred=technical_documentation
+
+Model trained on all documents and saved to classifier.joblib
+
+[4] Classification of NEW unseen documents:
+  -> technical_documentation (73.2%) | "The Kubernetes cluster autoscaler uses Docker containers and REST endp..."
+  -> hr_policy (90.1%) | "Employees must request annual leave and the HR department approves vac..."
+  -> project_report (86.2%) | "The milestone is delayed, the project budget is exceeded and sales rev..."
+  -> user_manual (92.9%) | "Click the Save button, select the menu option and upload your file to ..."
+  -> security_compliance (90.7%) | "All confidential data must be encrypted and security incidents reporte..."
